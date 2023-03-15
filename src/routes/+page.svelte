@@ -1,5 +1,10 @@
+<script>
+import Footer from '../components/footer.svelte'
+</script>
+
 <html data-theme="light"></html>
-<div class="navbar bg-base-100 h-14 bg-gradient-to-r from-purple-500 to-pink-500">
+<div class='bg-gradient-to-r from-purple-500 to-pink-500 absolute h-screen w-screen -z-10'>
+<div class="navbar bg-base-100 h-14">
   <div class="flex-1">
     <a class="btn btn-ghost normal-case text-xl glass">Gideon De Marcas</a>
   </div>
@@ -23,7 +28,7 @@ glass {
 }
 </style>
 
-<div class="grid grid-cols-4 gap-4 h-14 bg-gradient-to-r from-purple-500 to-pink-500">
+<div class="grid grid-cols-4 gap-4 h-14 mt-3">
   <div class="card card-compact w-96 bg-base-100 shadow-xl glass">
     <figure><img src="" alt="Shoes" /></figure>
     <div class="card-body">
@@ -35,5 +40,5 @@ glass {
     </div>
   </div>
 </div>
-
-<footer/>
+</div>
+<Footer/>
