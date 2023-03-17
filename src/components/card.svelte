@@ -17,7 +17,7 @@ glass {
 }
 </style>
 
-<div class="card card-compact w-96 bg-base-100 shadow-xl glass">
+<div class="card card-compact w-96 bg-base-100 shadow-xl">
   <figure><img src="{img}" alt="{title}" /></figure>
   <div class="card-body">
     <h2 class="card-title">{title}</h2>
