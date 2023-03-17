@@ -1,3 +1,10 @@
+<script>
+export let title;
+export let bio;
+export let button;
+export let img;
+</script>
+
 <style>
 glass {
     /* From https://css.glass */
@@ -11,12 +18,12 @@ glass {
 </style>
 
 <div class="card card-compact w-96 bg-base-100 shadow-xl glass">
-  <figure><img src="" alt="Shoes" /></figure>
+  <figure><img src="{img}" alt="{title}" /></figure>
   <div class="card-body">
-    <h2 class="card-title">DeepSea</h2>
-    <p>This is an example card for the DeepSea project</p>
+    <h2 class="card-title">{title}</h2>
+    <p>{bio}</p>
     <div class="card-actions justify-end">
-      <button class="btn btn-primary">Check it out!</button>
+      <button class="btn btn-primary">{button}</button>
     </div>
   </div>
 </div>

@@ -8,7 +8,7 @@
 <div class='bg-gradient-to-r from-purple-500 to-pink-500 absolute h-screen w-screen -z-10'>
   <Navbar/>
   <div class="grid grid-cols-4 gap-4 h-14 mt-3">
-    <Card/>
+    <Card title="DeepSea" img="" bio="This is an example card explaining the DeepSea project" button="Check it out!" />
   </div>
 </div>
 
