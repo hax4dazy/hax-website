@@ -4,8 +4,8 @@
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
-      <li><a>Item 2</a></li>
+      <li><a>Page 1</a></li>
+      <li><a>Page 2</a></li>
     </ul>
   </div>
 </div>

@@ -7,10 +7,15 @@
 <html data-theme="light"></html>
 <div class='bg-gradient-to-r from-purple-500 to-pink-500 absolute h-screen w-screen -z-10'>
   <Navbar/>
-  <div class="grid grid-cols-4 gap-4 h-14 mt-3">
-    <Card title="DeepSea" img="" bio="This is an example card explaining the DeepSea project" button="Check it out!" class="col-span-2" />
-    <Card title="DeepSea" img="" bio="This is an example card explaining the DeepSea project" button="Check it out!" />
+  <div class="grid grid-cols-12 gap-4 h-14 mt-3 ml-2 mr-2">
+      <div class="col-span-8">
+        <div class="grid grid-cols-1">
+          <Card title="Welcome to my portfolio!" img="" bio="This is going to be placeholder text, I just need to write something long here so I cna test out how it look on the site. Keep ignoring this please" button="Check out my onlyfans!" />
+        </div>
+      </div>
+    <div class="col-span-4">
+      <Card title="IMG" img="" bio="This is the card that should house my picture. I might cycle these through some images just so every user gets another picture" button="REMOVE ME"/>
+    </div>
   </div>
 </div>
-
 <Footer/>
