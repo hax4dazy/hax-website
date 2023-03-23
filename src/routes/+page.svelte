@@ -2,6 +2,7 @@
   import Footer from '../components/footer.svelte'
   import Card from '../components/card.svelte'
   import Navbar from '../components/navbar.svelte'
+    import logo from '../assets/logo.png';
 </script>
 
 <html data-theme="light"></html>
