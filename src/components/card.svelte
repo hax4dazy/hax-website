@@ -6,7 +6,7 @@ export let img;
 </script>
 
 <style>
-glass {
+frogs {
     /* From https://css.glass */
   background: rgba(179, 161, 161, 0.55);
   border-radius: 16px;
