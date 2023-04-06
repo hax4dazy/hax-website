@@ -2,6 +2,7 @@
   import Footer from '../components/footer.svelte'
   import Card from '../components/card.svelte'
   import Navbar from '../components/navbar.svelte'
+  let imnumber = Math.floor(Math.random() * 8) + 1;
 </script>
 
 <div class='bg-gradient-to-r from-purple-500 to-pink-500 absolute w-full h-full'>
@@ -13,7 +14,7 @@
         </div>
       </div>
     <div class="col-span-4">
-      <Card title="IMG" img="" bio="This is the card that should house my picture. I might cycle these through some images just so every user gets another picture" button="REMOVE ME"/>
+      <Card title="IMG" img="../src/assets/{imnumber}.jpeg" bio="This is the card that should house my picture. I might cycle these through some images just so every user gets another picture" button="REMOVE ME"/>
     </div>
   </div>
 </div>
