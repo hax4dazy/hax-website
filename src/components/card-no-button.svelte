@@ -1,9 +1,7 @@
 <script>
 export let title;
 export let bio;
-export let button;
 export let img;
-export let link;
 </script>
 
 <div class="card card-compact bg-base-100 shadow-xl">
@@ -12,7 +10,6 @@ export let link;
     <h2 class="card-title">{title}</h2>
     <p>{bio}</p>
     <div class="card-actions justify-end">
-      <button class="btn btn-primary" href='{link}'>{button}</button>
     </div>
   </div>
 </div>
