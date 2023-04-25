@@ -10,7 +10,7 @@
 
 <div class='bg-gradient-to-r from-purple-500 to-pink-500 absolute w-screen h-screen'>
   <Navbar/>
-  <div class="grid grid-cols-12 gap-4 h-14 mt-3 ml-3 mr-3">
+  <div class="grid grid-cols-12 gap-4 mt-3 ml-3 mr-3">
       <div class="col-span-8">
         <div class="grid grid-cols-1">
           <Card title="Welcome to my portfolio!" link="https://google.com" img="../src/assets/gideon.pink.png" bio="{ramble}" button="Check out my projects!"/>
