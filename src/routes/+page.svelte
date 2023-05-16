@@ -31,7 +31,7 @@
     </div>
   </div>
 
-  <div class="grid grid-cols-12 gap-4 ml-3 mr-3 mt-8">
+  <div class="grid grid-cols-12 gap-4 ml-3 mr-3 mt-3 mb-5">
     <div class="col-span-4">
       <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
     </div>
@@ -42,5 +42,5 @@
       <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
     </div>
   </div>
+  <Footer/>
 </div>
-<Footer/>
