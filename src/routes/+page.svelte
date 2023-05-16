@@ -22,10 +22,10 @@
           </div>
         </div>
       </div>
-    <div class="col-span-4">
+    <div class="col-span-4 sm:shrink-0">
       <div class="avatar">
         <div class="w-autorounded">
-          <img class="rounded-box" src="../src/assets/{imnumber}.jpeg" alt="hey its me!"/>
+          <img class="rounded-box bg-base-100 shadow-xl" src="../src/assets/{imnumber}.jpeg" alt="hey its me!"/>
         </div>
       </div>
     </div>
@@ -40,6 +40,15 @@
     </div>
     <div class="col-span-4">
       <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
+    </div>
+  </div>
+
+  <div class="grid grid-rows-3 grid-flow-col gap-4 ml-3 mr-3">
+    <div class="col-span-2">
+      <Card title='random project' img='../src/assets/deepsealogo.png' bio='example card for random project'/>
+    </div>
+    <div class="col-span-2">
+      <Card title='Another one' img='tmp' bio='example card for random project'/>
     </div>
   </div>
   <Footer/>
