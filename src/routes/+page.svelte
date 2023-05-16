@@ -8,12 +8,18 @@
   let review = "Gideon is a good developer and I like him 👍"
 </script>
 
-<div class='bg-gradient-to-r from-purple-500 to-pink-500 absolute w-screen h-screen'>
+<div class='bg-gradient-to-r from-purple-500 to-pink-500 absolute'>
   <Navbar/>
   <div class="grid grid-cols-12 gap-4 mt-3 ml-3 mr-3">
       <div class="col-span-8">
         <div class="grid grid-cols-1">
-          <Card title="Welcome to my portfolio!" link="https://google.com" img="../src/assets/gideon.pink.png" bio="{ramble}" button="Check out my projects!"/>
+          <div class="card card-compact bg-base-100 shadow-xl">
+            <figure><img width="500" height="200" src="../src/assets/gideon.pink.png" alt="Its me!" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Welcome to my portfolio!</h2>
+              <p>{ramble}</p>
+            </div>
+          </div>
         </div>
       </div>
     <div class="col-span-4">
@@ -24,9 +30,15 @@
       </div>
     </div>
   </div>
-  <div class="divider w-screen"></div> 
-  <div class="grid grid-cols-12 gap-4 ml-3 mr-3">
-    <div class="col-span-3">
+
+  <div class="grid grid-cols-12 gap-4 ml-3 mr-3 mt-8">
+    <div class="col-span-4">
+      <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
+    </div>
+    <div class="col-span-4">
+      <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
+    </div>
+    <div class="col-span-4">
       <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
     </div>
   </div>
