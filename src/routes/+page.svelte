@@ -10,7 +10,7 @@
 
 <div class='bg-gradient-to-r from-purple-500 to-pink-500 absolute'>
   <Navbar/>
-  <div class="grid grid-cols-12 gap-4 mt-3 ml-3 mr-3">
+  <div class="grid grid-cols-12 gap-4 mt-5 ml-3 mr-3">
       <div class="col-span-8">
         <div class="grid grid-cols-1">
           <div class="card card-compact bg-base-100 shadow-xl">
@@ -31,7 +31,7 @@
     </div>
   </div>
 
-  <div class="grid grid-cols-12 gap-4 ml-3 mr-3 mt-3 mb-5">
+  <div class="grid grid-cols-12 gap-4 ml-3 mr-3 mt-3">
     <div class="col-span-4">
       <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
     </div>
@@ -43,9 +43,9 @@
     </div>
   </div>
 
-  <div class="grid grid-rows-3 grid-flow-col gap-4 ml-3 mr-3">
+  <div class="grid grid-rows-3 grid-flow-col gap-4 ml-3 mr-3 mt-5">
     <div class="col-span-2">
-      <Card title='random project' img='../src/assets/deepsealogo.png' bio='example card for random project'/>
+      <Card title='DeepSea' img='../src/assets/deepsealogo.png' bio='DeepSea is an AiO (All In One) Custom Firmware package for the Nintendo Switch. It is used by thousands of people and maintained by me!'/>
     </div>
     <div class="col-span-2">
       <Card title='Another one' img='tmp' bio='example card for random project'/>
