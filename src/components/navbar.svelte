@@ -1,4 +1,4 @@
-<div class="navbar bg-base-100 h-14">
+<div class="navbar bg-base-100">
   <div class="flex-1">
     <a class="btn btn-ghost normal-case text-xl glass" href="/">Gideon De Marcas</a>
   </div>
