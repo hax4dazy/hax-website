@@ -31,14 +31,17 @@
     </div>
   </div>
 
-  <div class="grid grid-cols-12 gap-4 ml-3 mr-3 mt-3">
-    <div class="col-span-4">
+  <div class="grid lg:grid-cols-12 md:grid-cols-2 gap-4 ml-3 mr-3 mt-3">
+    <div class="lg:col-span-3">
       <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
     </div>
-    <div class="col-span-4">
+    <div class="lg:col-span-3">
       <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
     </div>
-    <div class="col-span-4">
+    <div class="lg:col-span-3">
+      <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
+    </div>
+    <div class="lg:col-span-3">
       <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
     </div>
   </div>
