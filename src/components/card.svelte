@@ -7,7 +7,7 @@ export let link;
 </script>
 
 <div class="card card-side bg-base-100 shadow-xl">
-  <figure><img src="{img}" alt="{title}"/></figure>
+  <figure><img class="lg:w-40 lg:h-40 md:w-30 md:h-30" src="{img}" alt="{title}"/></figure>
   <div class="card-body">
     <h2 class="card-title">{title}</h2>
     <p>{bio}</p>
