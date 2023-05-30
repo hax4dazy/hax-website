@@ -9,10 +9,10 @@
 </script>
 
 
-<div class='bg-gradient-to-r from-purple-500 to-pink-500 absolute'>
+<div class=''>
   <Navbar/>
-  <div class="grid md:grid-cols-12 gap-4 mt-5 ml-3 mr-3">
-      <div class="col-span-8">
+  <div class="grid grid-cols-12 gap-4 mt-5 mx-3 max-w-7xl">
+      <div class="col-span-12 md:col-span-8">
         <div class="grid grid-cols-1">
           <div class="card card-compact bg-base-100 shadow-xl">
             <figure><img width="100%" height="100%" src="../src/assets/gideon.pink.png" alt="Its me!" /></figure>
@@ -23,31 +23,31 @@
           </div>
         </div>
       </div>
-    <div class="col-span-4">
+    <div class="col-span-12 md:col-span-4">
       <div class="avatar">
         <div class="w-autorounded">
-          <img class="rounded-box bg-base-100 shadow-xl" src="../src/assets/{imnumber}.jpeg" alt="hey its me!" object-position="center"/>
+          <img class="rounded-box bg-base-100 shadow-xl" src="../src/assets/{imnumber}.jpeg" alt="hey its me!"/>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="grid xl:grid-cols-20 lg:grid-cols-12 md:grid-cols-2 gap-4 ml-3 mr-3 mt-3">
-    <div class="lg:col-span-3">
+  <div class="grid grid-cols-12 gap-4 mx-3 mt-3">
+    <div class="col-span-12 md:col-span-6 lg:col-span-3 md:max-w-7xl">
       <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
     </div>
-    <div class="lg:col-span-3">
+    <div class="col-span-12 md:col-span-6 lg:col-span-3 md:max-w-7xl">
       <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
     </div>
-    <div class="lg:col-span-3">
+    <div class="col-span-12 md:col-span-6 lg:col-span-3 md:max-w-7xl">
       <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
     </div>
-    <div class="lg:col-span-3">
+    <div class="col-span-12 md:col-span-6 lg:col-span-3 md:max-w-7xl">
       <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
     </div>
   </div>
 
-  <div class="grid grid-rows-3 grid-flow-col gap-4 ml-3 mr-3 mt-5">
+  <div class="grid grid-rows-3 grid-flow-col gap-4 mx-3 mt-5 max-w-7xl">
     <div class="col-span-2">
       <Card title='DeepSea' img='../src/assets/deepsealogo.png' bio='DeepSea is an AiO (All In One) Custom Firmware package for the Nintendo Switch. It is used by thousands of people and maintained by me!'/>
     </div>
