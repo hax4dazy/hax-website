@@ -9,9 +9,9 @@
 </script>
 
 
-<div class=''>
+<div>
   <Navbar/>
-  <div class="grid grid-cols-12 gap-4 mt-5 mx-3 max-w-7xl">
+  <div class="grid grid-cols-12 gap-4 mt-5 mx-auto max-w-7xl">
       <div class="col-span-12 md:col-span-8">
         <div class="grid grid-cols-1">
           <div class="card card-compact bg-base-100 shadow-xl">
@@ -32,22 +32,22 @@
     </div>
   </div>
 
-  <div class="grid grid-cols-12 gap-4 mx-3 mt-3">
-    <div class="col-span-12 md:col-span-6 lg:col-span-3 md:max-w-7xl">
+  <div class="grid grid-cols-12 gap-4 mx-auto mt-3 max-w-7xl">
+    <div class="col-span-12 md:col-span-6 lg:col-span-3">
       <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
     </div>
-    <div class="col-span-12 md:col-span-6 lg:col-span-3 md:max-w-7xl">
+    <div class="col-span-12 md:col-span-6 lg:col-span-3">
       <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
     </div>
-    <div class="col-span-12 md:col-span-6 lg:col-span-3 md:max-w-7xl">
+    <div class="col-span-12 md:col-span-6 lg:col-span-3">
       <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
     </div>
-    <div class="col-span-12 md:col-span-6 lg:col-span-3 md:max-w-7xl">
+    <div class="col-span-12 md:col-span-6 lg:col-span-3">
       <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
     </div>
   </div>
 
-  <div class="grid grid-rows-3 grid-flow-col gap-4 mx-3 mt-5 max-w-7xl">
+  <div class="grid grid-rows-3 grid-flow-col gap-4 mx-auto mt-5 max-w-7xl">
     <div class="col-span-2">
       <Card title='DeepSea' img='../src/assets/deepsealogo.png' bio='DeepSea is an AiO (All In One) Custom Firmware package for the Nintendo Switch. It is used by thousands of people and maintained by me!'/>
     </div>
