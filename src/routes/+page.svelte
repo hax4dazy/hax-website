@@ -8,9 +8,8 @@
   let review = "Gideon is a good developer and I like him 👍"
 </script>
 
-
+<Navbar/>
 <div>
-  <Navbar/>
   <div class="grid grid-cols-12 gap-4 mt-5 mx-auto max-w-7xl">
       <div class="col-span-12 md:col-span-8">
         <div class="grid grid-cols-1">
@@ -55,5 +54,5 @@
       <Card title='Another one' img='tmp' bio='example card for random project'/>
     </div>
   </div>
-  <Footer/>
 </div>
+<Footer/>
