@@ -1,9 +1,14 @@
 <script>
+  //component imports
   import Footer from '../components/footer.svelte'
   import Card from '../components/card.svelte'
   import Navbar from '../components/navbar.svelte'
   import CardNoButton from '../components/card-no-button.svelte'
+  //image imports
   import logo from "../assets/gideon.pink.png"
+  import tmp from "../assets/tmp.jpg"
+  import deepsealogo from "../assets/deepsealogo.png"
+  //variables
   let baselink = "https://raw.githubusercontent.com/hax4dazy/hax-website/main/src/assets/"
   let imnumber = Math.floor(Math.random() * 9) + 1;
   let ramble = "Hello! I'm a software developer, and I'm passionate about building things that make a difference. I'm currently working on a few projects, and I'm always looking for new opportunities. If you have any questions, feel free to reach out to me!"
@@ -35,16 +40,16 @@
 
   <div class="grid grid-cols-12 gap-4 mx-auto mt-3 max-w-7xl">
     <div class="col-span-12 md:col-span-6 lg:col-span-3">
-      <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
+      <CardNoButton title="About Me" img="{tmp}" bio="{review}"/>
     </div>
     <div class="col-span-12 md:col-span-6 lg:col-span-3">
-      <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
+      <CardNoButton title="About Me" img="{tmp}" bio="{review}"/>
     </div>
     <div class="col-span-12 md:col-span-6 lg:col-span-3">
-      <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
+      <CardNoButton title="About Me" img=".{tmp}" bio="{review}"/>
     </div>
     <div class="col-span-12 md:col-span-6 lg:col-span-3">
-      <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
+      <CardNoButton title="About Me" img="{tmp}" bio="{review}"/>
     </div>
   </div>
 
