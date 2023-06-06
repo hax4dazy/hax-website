@@ -20,6 +20,7 @@
   "dependencies": {
     "@sveltejs/adapter-static": "^2.0.2",
     "@vkea/pridecss": "^3.4.1",
-    "dart-sass": "^1.25.0"
+    "dart-sass": "^1.25.0",
+    "svelte-preprocess": "^5.0.4"
   }
 }

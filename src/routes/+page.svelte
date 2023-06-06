@@ -3,7 +3,9 @@
   import Card from '../components/card.svelte'
   import Navbar from '../components/navbar.svelte'
   import CardNoButton from '../components/card-no-button.svelte'
-  let imnumber = Math.floor(Math.random() * 8) + 1;
+  import logo from "../assets/gideon.pink.png"
+  let baselink = "https://raw.githubusercontent.com/hax4dazy/hax-website/main/src/assets/"
+  let imnumber = Math.floor(Math.random() * 9) + 1;
   let ramble = "Hello! I'm a software developer, and I'm passionate about building things that make a difference. I'm currently working on a few projects, and I'm always looking for new opportunities. If you have any questions, feel free to reach out to me!"
   let review = "Gideon is a good developer and I like him 👍"
 </script>
@@ -14,7 +16,7 @@
       <div class="col-span-12 md:col-span-8">
         <div class="grid grid-cols-1">
           <div class="card card-compact bg-base-100 shadow-xl">
-            <figure><img width="100%" height="100%" src="../src/assets/gideon.pink.png" alt="Its me!" /></figure>
+            <figure><img width="100%" height="100%" src="{logo}" alt="Logo" /></figure>
             <div class="card-body">
               <h2 class="card-title">Expect the unexpected</h2>
               <p>{ramble}</p>
