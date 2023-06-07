@@ -30,7 +30,7 @@
         </div>
       </div>
     <div class="col-span-12 md:col-span-4">
-      <div class="avatar">
+      <div class="avatar h-full">
         <div class="w-autorounded">
           <img class="rounded-box bg-base-100 shadow-xl" src="../src/assets/{imnumber}.jpeg" alt="hey its me!"/>
         </div>
@@ -55,7 +55,7 @@
 
   <div class="grid grid-rows-3 grid-flow-col gap-4 mx-auto mt-5 max-w-7xl">
     <div class="col-span-2">
-      <Card title='DeepSea' img='../src/assets/deepsealogo.png' bio='DeepSea is an AiO (All In One) Custom Firmware package for the Nintendo Switch. It is used by thousands of people and maintained by me!'/>
+      <Card title='DeepSea' img='{deepsealogo}' bio='DeepSea is an AiO (All In One) Custom Firmware package for the Nintendo Switch. It is used by thousands of people and maintained by me!'/>
     </div>
     <div class="col-span-2">
       <Card title='Another one' img='tmp' bio='example card for random project'/>
