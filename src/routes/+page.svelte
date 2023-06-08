@@ -23,8 +23,7 @@
   //variables
   let randomIndex = Math.floor(Math.random() * images.length);
   let pfp = images[randomIndex];
-  let ramble =
-    "Hello! I'm a software developer, and I'm passionate about building things that make a difference. I'm currently working on a few projects, and I'm always looking for new opportunities. If you have any questions, feel free to reach out to me!";
+  let ramble = "Hello! I'm a software developer, and I'm passionate about building things that make a difference. I'm currently working on a few projects, and I'm always looking for new opportunities. If you have any questions, feel free to reach out to me!";
   let review = "Gideon is a good developer and I like him 👍";
 </script>
 
