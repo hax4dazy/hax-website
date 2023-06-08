@@ -5,7 +5,7 @@
 </script>
 
 <div class="card card-compact bg-base-100 shadow-xl w-fit">
-  <figure class="max-w-sm">
+  <figure class="">
     <img src={img} alt={title} />
   </figure>
   <div class="card-body">
