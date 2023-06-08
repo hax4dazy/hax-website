@@ -72,12 +72,23 @@
       </div>
   </div>
 
-  <div class="grid grid-cols-12 gap-4 mx-auto mt-5">
+  <div class="grid grid-cols-12 gap-4 mx-auto mt-3">
     <div class="col-span-12">
       <Card title="DeepSea" img={deepsealogo} href="https://github.com/Team-Neptune/DeepSea" bio="DeepSea is an AiO (All In One) Custom Firmware package for the Nintendo Switch. It is used by thousands of people and maintained by me!"/>
     </div>
     <div class="col-span-12">
       <Card title="Gideon.pink" img="{site}" href="https://git.gideon.pink/Hax4dayz/hax-website" bio="This website was fully coded (with some help from other sources) by me!"/>
+    </div>
+  </div>
+
+  <div class='grid-cols-12 mt-3'>
+    <div class="card w-96 bg-base-100 shadow-xl col-span-12">
+      <div class="card-body">
+        <h2 class="card-title">Card title!</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions justify-end">
+        </div>
+      </div>
     </div>
   </div>
 </div>
