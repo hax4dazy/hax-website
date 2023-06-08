@@ -1,5 +1,5 @@
 <script>
-  import '@vkea/pridecss/css/pride-lite.css';
+  import '@vkea/pridecss/css/pride-lite.css?inline';
   const LGBTQ = ['pride-bi', 'pride-trans', 'pride-quasar', 'pride-gay'];
   let randomLGBTQ = LGBTQ[Math.floor(Math.random() * LGBTQ.length)];
 </script>
@@ -10,8 +10,7 @@
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1">
-      <li><a href="/">Page 1</a></li>
-      <li><a href="/">Page 2</a></li>
+      <li><a href="/">Contact</a></li>
     </ul>
   </div>
 </div>
