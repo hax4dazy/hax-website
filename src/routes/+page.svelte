@@ -21,6 +21,7 @@
   //const
   const images = [pfp1, pfp2, pfp3, pfp4, pfp5, pfp6, pfp7, pfp8, pfp9];
   //variables
+  let egg = "egg"
   let randomIndex = Math.floor(Math.random() * images.length);
   let pfp = images[randomIndex];
   let ramble =
