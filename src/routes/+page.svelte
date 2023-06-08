@@ -72,11 +72,11 @@
       </div>
   </div>
 
-  <div class="grid grid-cols-3 grid-flow-col gap-4 mx-auto mt-5">
-    <div class="col-span-3">
+  <div class="grid grid-cols-12 gap-4 mx-auto mt-5">
+    <div class="col-span-12">
       <Card title="DeepSea" img={deepsealogo} bio="DeepSea is an AiO (All In One) Custom Firmware package for the Nintendo Switch. It is used by thousands of people and maintained by me!"/>
     </div>
-    <div class="col-span-3">
+    <div class="col-span-12">
       <Card title="Another one" img="{tmp}" bio="example card for random project"/>
     </div>
   </div>
