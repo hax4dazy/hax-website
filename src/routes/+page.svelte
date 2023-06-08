@@ -8,6 +8,7 @@
   import logo from "../assets/gideon.pink.png";
   import tmp from "../assets/tmp.jpg";
   import deepsealogo from "../assets/deepsealogo.png";
+  import site from "../assets/site.png";
   //I'm sorry slluxx
   import pfp1 from "../assets/1.jpeg";
   import pfp2 from "../assets/2.jpeg";
@@ -73,10 +74,10 @@
 
   <div class="grid grid-cols-12 gap-4 mx-auto mt-5">
     <div class="col-span-12">
-      <Card title="DeepSea" img={deepsealogo} bio="DeepSea is an AiO (All In One) Custom Firmware package for the Nintendo Switch. It is used by thousands of people and maintained by me!"/>
+      <Card title="DeepSea" img={deepsealogo} link="https://github.com/Team-Neptune/DeepSea" bio="DeepSea is an AiO (All In One) Custom Firmware package for the Nintendo Switch. It is used by thousands of people and maintained by me!"/>
     </div>
     <div class="col-span-12">
-      <Card title="Another one" img="{tmp}" bio="example card for random project"/>
+      <Card title="Gideon.pink" img="{site}" link="https://git.gideon.pink/Hax4dayz/hax-website" bio="This website was fully coded (with some help from other sources) by me!"/>
     </div>
   </div>
 </div>
