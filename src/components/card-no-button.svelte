@@ -2,7 +2,6 @@
   export let title;
   export let bio;
   export let img;
-  import tmp from "../assets/tmp.jpg";
 </script>
 
 <div class="card card-compact bg-base-100 shadow-xl w-fit">
