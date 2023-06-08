@@ -1,60 +1,92 @@
 <script>
-  import Footer from '../components/footer.svelte'
-  import Card from '../components/card.svelte'
-  import Navbar from '../components/navbar.svelte'
-  import CardNoButton from '../components/card-no-button.svelte'
-  import logo from "../assets/gideon.pink.png"
-  let baselink = "https://raw.githubusercontent.com/hax4dazy/hax-website/main/src/assets/"
-  let imnumber = Math.floor(Math.random() * 9) + 1;
-  let ramble = "Hello! I'm a software developer, and I'm passionate about building things that make a difference. I'm currently working on a few projects, and I'm always looking for new opportunities. If you have any questions, feel free to reach out to me!"
-  let review = "Gideon is a good developer and I like him 👍"
+  //component imports
+  import Footer from "../components/footer.svelte";
+  import Card from "../components/card.svelte";
+  import Navbar from "../components/navbar.svelte";
+  import CardNoButton from "../components/card-no-button.svelte";
+  //image imports
+  import logo from "../assets/gideon.pink.png";
+  import tmp from "../assets/tmp.jpg";
+  import deepsealogo from "../assets/deepsealogo.png";
+  //I'm sorry slluxx
+  import pfp1 from "../assets/1.jpeg";
+  import pfp2 from "../assets/2.jpeg";
+  import pfp3 from "../assets/3.jpeg";
+  import pfp4 from "../assets/4.jpeg";
+  import pfp5 from "../assets/5.jpeg";
+  import pfp6 from "../assets/6.jpeg";
+  import pfp7 from "../assets/7.jpeg";
+  import pfp8 from "../assets/8.jpeg";
+  import pfp9 from "../assets/9.jpeg";
+  //const
+  const images = [pfp1, pfp2, pfp3, pfp4, pfp5, pfp6, pfp7, pfp8, pfp9];
+  //variables
+  let randomIndex = Math.floor(Math.random() * images.length);
+  let pfp = images[randomIndex];
+  let ramble =
+    "Hello! I'm a software developer, and I'm passionate about building things that make a difference. I'm currently working on a few projects, and I'm always looking for new opportunities. If you have any questions, feel free to reach out to me!";
+  let review = "Gideon is a good developer and I like him 👍";
 </script>
 
-<Navbar/>
-<div>
+<Navbar />
+<div class="container px-4 mx-auto">
   <div class="grid grid-cols-12 gap-4 mt-5 mx-auto max-w-7xl">
-      <div class="col-span-12 md:col-span-8">
-        <div class="grid grid-cols-1">
-          <div class="card card-compact bg-base-100 shadow-xl">
-            <figure><img width="100%" height="100%" src="{logo}" alt="Logo" /></figure>
-            <div class="card-body">
-              <h2 class="card-title">Expect the unexpected</h2>
-              <p>{ramble}</p>
-            </div>
+    <div class="col-span-12 md:col-span-8">
+      <div class="grid grid-cols-1">
+        <div class="card card-compact bg-base-100 shadow-xl">
+          <figure>
+            <img width="100%" height="100%" src={logo} alt="Gideon.pink logo" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Expect the unexpected</h2>
+            <p>{ramble}</p>
           </div>
         </div>
       </div>
-    <div class="col-span-12 md:col-span-4">
-      <div class="avatar">
+    </div>
+    <div class="col-span-12 md:col-span-4 order-first sm:order-last">
+      <div class="avatar h-full">
         <div class="w-autorounded">
-          <img class="rounded-box bg-base-100 shadow-xl" src="../src/assets/{imnumber}.jpeg" alt="hey its me!"/>
+          <img
+            class="rounded-box bg-base-100 shadow-xl"
+            src="{pfp}"
+            alt="hey its me! very cool person"
+          />
         </div>
       </div>
     </div>
   </div>
 
   <div class="grid grid-cols-12 gap-4 mx-auto mt-3 max-w-7xl">
-    <div class="col-span-12 md:col-span-6 lg:col-span-3">
-      <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
-    </div>
-    <div class="col-span-12 md:col-span-6 lg:col-span-3">
-      <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
-    </div>
-    <div class="col-span-12 md:col-span-6 lg:col-span-3">
-      <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
-    </div>
-    <div class="col-span-12 md:col-span-6 lg:col-span-3">
-      <CardNoButton title="About Me" img="../src/assets/tmp.jpg" bio="{review}"/>
-    </div>
+      <div class="col-span-12 md:col-span-6 lg:col-span-3">
+        <CardNoButton title="About Me" img={tmp} bio={review} />
+      </div>
+      <div class="col-span-12 md:col-span-6 lg:col-span-3">
+        <CardNoButton title="About Me" img={tmp} bio={review} />
+      </div>
+      <div class="col-span-12 md:col-span-6 lg:col-span-3">
+        <CardNoButton title="About Me" img={tmp} bio={review} />
+      </div>
+      <div class="col-span-12 md:col-span-6 lg:col-span-3">
+        <CardNoButton title="About Me" img={tmp} bio={review} />
+      </div>
   </div>
 
   <div class="grid grid-rows-3 grid-flow-col gap-4 mx-auto mt-5 max-w-7xl">
     <div class="col-span-2">
-      <Card title='DeepSea' img='../src/assets/deepsealogo.png' bio='DeepSea is an AiO (All In One) Custom Firmware package for the Nintendo Switch. It is used by thousands of people and maintained by me!'/>
+      <Card
+        title="DeepSea"
+        img={deepsealogo}
+        bio="DeepSea is an AiO (All In One) Custom Firmware package for the Nintendo Switch. It is used by thousands of people and maintained by me!"
+      />
     </div>
     <div class="col-span-2">
-      <Card title='Another one' img='tmp' bio='example card for random project'/>
+      <Card
+        title="Another one"
+        img="{tmp}"
+        bio="example card for random project"
+      />
     </div>
   </div>
 </div>
-<Footer/>
+<Footer />

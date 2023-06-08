@@ -7,7 +7,7 @@ export let img;
 </script>
 
 <div class="card card-side bg-base-100 shadow-xl">
-  <figure><img height="20%" width="20%" src="{img}" alt="{title}"/></figure>
+  <figure class="shrink-0"><img class="w-20" src="{img}" alt="{title}"/></figure>
   <div class="card-body">
     <h2 class="card-title">{title}</h2>
     <p>{bio}</p>
