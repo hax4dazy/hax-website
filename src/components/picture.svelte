@@ -35,7 +35,8 @@
                     <a href="https://twitter.com/hax4dayz" target="_blank" rel="noreferrer"><i class="fab fa-twitter-square fa-3x"></i></a>
                 </div>
                 <div class="">
-                    <a href="mailto:gideon@gideon.pink" target="_blank" rel="noreferrer"><i class="fas fa-envelope-square fa-3x"></i></a>
+                    <a href="#" data-contact="Z2lkZW9uQGdpZGVvbi5waW5r" data-subj="TGV0cyBnZXQgaW4gdG91Y2g="
+                    onmouseover="this.href = 'mailto:' + atob(this.dataset.contact) + '?subject=' + atob(this.dataset.subj || '')"><i class="fas fa-envelope-square fa-3x"></i></a>
                 </div>
                 <div class="">
                     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs" target="_blank" rel="noreferrer"><i class="fab fa-google-plus-square fa-3x"></i></a>

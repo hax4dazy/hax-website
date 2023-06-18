@@ -1,7 +1,7 @@
 <script>
-  import '@vkea/pridecss/css/pride-lite.css?inline';
+  //import '@vkea/pridecss/css/pride-lite.css?inline';
   import { base } from '$app/paths'
-  const LGBTQ = ['pride-bi', 'pride-trans', 'pride-quasar', 'pride-gay'];
+  const LGBTQ = ['pride--bi', 'pride--trans', 'pride--quasar', 'pride--gay'];
   let randomLGBTQ = LGBTQ[Math.floor(Math.random() * LGBTQ.length)];
 </script>
 
