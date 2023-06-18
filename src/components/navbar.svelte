@@ -9,9 +9,4 @@
   <div class="flex-1">
     <a class="btn btn-ghost normal-case text-xl glass {randomLGBTQ} text-black" href="{base}">Gideon De Marcas</a>
   </div>
-  <div class="flex-none">
-    <ul class="menu menu-horizontal px-1">
-      <li><a href="/">Contact</a></li>
-    </ul>
-  </div>
 </div>
