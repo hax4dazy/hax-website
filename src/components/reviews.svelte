@@ -1,20 +1,26 @@
 <script>
     import CardNoButton from "../components/card-no-button.svelte";
     import tmp from "../assets/tmp.jpg";
-    let review = "Gideon is a good developer and I like him 👍";
+    import slluxx from "../assets/slluxx.png";
+    import danielM from "../assets/danielM.jpeg";
+    import riley from "../assets/ri.jpeg";
+    let yourimagehere = "Contact me and have your review of me posted here!"
+    let riley_review = "Gideon is a good developer and I like him 👍";
+    let slluxx_review = "Meet my friend Gideon, a fascinating blend of intellect and occasional cluelessness. They pour their heart and soul into everything they do, and that dedication shines through in their results.";
+    let danielM_review = "Gideon is een bevlogen IT professional, hij zet netwerken op voor huishoudens en bedrijven, weet raad met elk computer probleem en geen besturingssysteem is hem vreemd, van Apple IOS tot android of Windows. Heb je een probleem, vraag het Gideon en hij lost het op!";
 </script>
 
 <div class="grid grid-cols-12 gap-4 mx-auto mt-3">
     <div class="col-span-12 md:col-span-6 lg:col-span-3">
-      <CardNoButton title="About Me" img={tmp} bio={review} />
+      <CardNoButton title="Calvin" img={slluxx} bio={slluxx_review} />
     </div>
     <div class="col-span-12 md:col-span-6 lg:col-span-3">
-      <CardNoButton title="About Me" img={tmp} bio={review} />
+      <CardNoButton title="Daniel M" img={danielM} bio={danielM_review} />
     </div>
     <div class="col-span-12 md:col-span-6 lg:col-span-3">
-      <CardNoButton title="About Me" img={tmp} bio={review} />
+      <CardNoButton title="Riley R" img={riley} bio={riley_review} />
     </div>
     <div class="col-span-12 md:col-span-6 lg:col-span-3">
-      <CardNoButton title="About Me" img={tmp} bio={review} />
+      <CardNoButton title="Your review here!" img={tmp} bio={yourimagehere} />
     </div>
 </div>

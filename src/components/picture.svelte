@@ -18,7 +18,7 @@
 
 <style>
     a {  
-    color: #570df8
+    color: #e8499f
     }
 </style>
 
