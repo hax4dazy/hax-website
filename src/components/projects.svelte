@@ -16,7 +16,7 @@
       <Card title="DeepSea" img={deepsealogo} href="https://github.com/Team-Neptune/DeepSea" bio="DeepSea is an AiO (All In One) Custom Firmware package for the Nintendo Switch. It is used by thousands of people and maintained by me!"/>
     </div>
     <div class="col-span-12">
-      <Card title="Poseidon" img="{poseidon}" href="https://github.com/Team-Neptune/poseidon" bio="This is a discord bot written in Python with Pycord used in the official Team Neptune Discord server!"/>
+      <Card title="Poseidon" img="{poseidon}" href="https://github.com/Team-Neptune/poseidon" bio="This is a discord bot written in Python with Pycord used in the official Team Neptune Discord server! (source code is private for now)"/>
     </div>
     <div class="col-span-12">
       <Card title="Korral" img="{korral}" href="https://github.com/Team-Neptune/Korral-JS" bio="This is the now defunct Discord bot for the official Team Neptune Discord server written entirely in Javascript!"/>
