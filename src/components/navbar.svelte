@@ -1,6 +1,6 @@
 <script>
   import { base } from '$app/paths'
-  const LGBTQ = ['pride--bi text-black', 'pride--trans text-black', 'pride--quasar text-white', 'pride--gay text-white'];
+  const LGBTQ = ['pride--bi text-white', 'pride--trans text-black', 'pride--quasar text-white', 'pride--gay text-white'];
   let randomLGBTQ = LGBTQ[Math.floor(Math.random() * LGBTQ.length)];
 </script>
 
