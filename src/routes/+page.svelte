@@ -24,5 +24,5 @@
     <Reviews/>
     <Projects/>
   </div>
+  <Footer />
 </div>
-<Footer />
