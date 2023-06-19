@@ -16,10 +16,16 @@
     let pfp = images[randomIndex];
 </script>
 
+<style>
+    a {  
+    color: #570df8
+    }
+</style>
+
 <div class="avatar h-full">
     <div class="w-autorounded">
-        <div class="card card-side card-compact bg-neutral shadow-xl">
-            <figure><img class="rounded-box bg-base-100" src={pfp} alt="hey its me! very cool person"/></figure>
+        <div class="card card-side card-compact bg-base-100 shadow-xl">
+            <figure><img class="rounded-box" src={pfp} alt="hey its me! very cool person"/></figure>
             <div class="card-body">
               <div class="flex flex-col">
                 <div class="">
