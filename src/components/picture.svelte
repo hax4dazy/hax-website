@@ -22,9 +22,9 @@
     }
 </style>
 
-<div class="avatar h-full">
+<div class="avatar h-full h-full">
     <div class="w-autorounded">
-        <div class="card card-side card-compact bg-base-100 shadow-xl">
+        <div class="card card-side card-compact bg-base-100 shadow-xl h-full">
             <figure><img class="rounded-box" src={pfp} alt="hey its me! very cool person"/></figure>
             <div class="card-body">
               <div class="flex flex-col">

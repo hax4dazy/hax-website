@@ -4,7 +4,7 @@
   export let img;
 </script>
 
-<div class="card card-compact bg-base-100 shadow-xl w-fit">
+<div class="card card-compact bg-base-100 shadow-xl w-fit h-full">
   <figure class="h-72">
     <img src={img} alt={title} />
   </figure>
