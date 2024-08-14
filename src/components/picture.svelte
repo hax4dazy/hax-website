@@ -35,10 +35,10 @@
                     <a href="https://github.com/hax4dazy" target="_blank" rel="noreferrer"><i class="fab fa-github-square fa-3x"></i></a>
                 </div>
                 <div class="">
-                    <a href="https://www.youtube.com/" target="_blank" rel="noreferrer"><i class="fab fa-youtube-square fa-3x"></i></a>
+                    <a href="https://www.youtube.com/@hax4dayz1" target="_blank" rel="noreferrer"><i class="fab fa-youtube-square fa-3x"></i></a>
                 </div>
                 <div class="">
-                    <a href="https://twitter.com/hax4dayz" target="_blank" rel="noreferrer"><i class="fab fa-twitter-square fa-3x"></i></a>
+                    <a href="https://bsky.app/profile/gdm.rocks" target="_blank" rel="noreferrer"><i class="fa-brands fa-bluesky"></i></a>
                 </div>
                 <div class="">
                     <a href="#" data-contact="Z2lkZW9uQGdpZGVvbi5waW5r" data-subj="TGV0cyBnZXQgaW4gdG91Y2g="
