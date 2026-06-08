@@ -10,7 +10,7 @@
 
 <div class="grid grid-cols-12 gap-4 mx-auto mt-3">
     <div class="col-span-12">
-      <Card title="NX-ScreenUploader" href="https://github.com/hax4dazy/NX-ScreenUploader" bio="I added Immich uploading to this project so screenshots taken on the switch are uploaded to your personal Immich server!"/>
+      <Card title="NX-ScreenUploader" img="{site}" href="https://github.com/hax4dazy/NX-ScreenUploader" bio="I added Immich uploading to this project so screenshots taken on the switch are uploaded to your personal Immich server!"/>
     </div>
     <div class="col-span-12">
       <Card title="Gideon.pink" img="{site}" href="https://github.com/hax4dazy/hax-website" bio="This website was fully coded (with some help from other sources) by me!"/>
