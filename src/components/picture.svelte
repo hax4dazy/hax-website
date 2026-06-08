@@ -42,7 +42,7 @@
                     onmouseover="this.href = 'mailto:' + atob(this.dataset.contact) + '?subject=' + atob(this.dataset.subj || '')"><i class="fas fa-envelope-square fa-3x"></i></a>
                 </div>
                 <div class="">
-                    <a href="https://googleplus.gideon.pink" target="_blank" rel="noreferrer"><i class="fab fa-google-plus-square fa-3x"></i></a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer"><i class="fab fa-google-plus-square fa-3x"></i></a>
                 </div>
               </div>
             </div>
