@@ -1,3 +1,3 @@
-# hax-test-site
+# hax-website
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/daisyui-sveltekit-ihmswf)
+My personal website. Not actively maintained. 
