@@ -10,10 +10,13 @@
 
 <div class="grid grid-cols-12 gap-4 mx-auto mt-3">
     <div class="col-span-12">
-      <Card title="Gideon.pink" img="{site}" href="https://git.gideon.pink/Hax4dayz/hax-website" bio="This website was fully coded (with some help from other sources) by me!"/>
+      <Card title="NX-ScreenUploader" href="https://github.com/hax4dazy/NX-ScreenUploader" bio="I added Immich uploading to this project so screenshots taken on the switch are uploaded to your personal Immich server!"/>
     </div>
     <div class="col-span-12">
-      <Card title="DeepSea" img={deepsealogo} href="https://github.com/Team-Neptune/DeepSea" bio="DeepSea is an AiO (All In One) Custom Firmware package for the Nintendo Switch. It is used by thousands of people and maintained by me!"/>
+      <Card title="Gideon.pink" img="{site}" href="github.com/hax4dazy/hax-website" bio="This website was fully coded (with some help from other sources) by me!"/>
+    </div>
+    <div class="col-span-12">
+      <Card title="DeepSea (archived)" img={deepsealogo} href="https://github.com/Team-Neptune/DeepSea" bio="DeepSea is an AiO (All In One) Custom Firmware package for the Nintendo Switch. It is used by thousands of people and maintained by me!"/>
     </div>
     <div class="col-span-12">
       <Card title="Poseidon" img="{poseidon}" href="https://github.com/Team-Neptune/poseidon" bio="This is a discord bot written in Python with Pycord used in the official Team Neptune Discord server! (source code is private for now)"/>
